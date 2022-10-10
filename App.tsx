@@ -1,7 +1,7 @@
 import React from 'react'
 import { SafeAreaView, Text } from 'react-native'
 
-import { Onboarding1 } from './src/screen/Onboarding1'
+import { Onboarding1 } from './src/base/screens/Onboarding1'
 
 const App = () => {
   return (

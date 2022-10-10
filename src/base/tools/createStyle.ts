@@ -5,7 +5,7 @@ import {
   TextStyle,
   ViewStyle
 } from 'react-native'
-import { theme as Theme } from '../layout/theme'
+import { theme as Theme } from '../../common/layout/theme'
 
 interface ViewThemeStyle extends ViewStyle {
   backgroundColor?: ColorValue | keyof typeof Theme.colors | undefined
